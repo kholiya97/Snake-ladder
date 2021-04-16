@@ -4,18 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SnakeAndladder
+namespace SnakeAndLadder
 {
     class Program
     {
-
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Welcome to Game Snake and ladder");
+            int position = 0;
+            Console.WriteLine("Start position of player: " + position);
             Console.ReadLine();
-
-
         }
     }
 }
